@@ -1,11 +1,13 @@
 Интернет-магазин по заказу пиццы - React Pizza
 
 Stack:
-
-ReactJS + хуки
-React Router
-Redux
-Redux thunk
-json-server
-Axios
-classnames
+<ul>
+  <li>ReactJS + хуки</li>
+  <li>Redux</li>
+  <li>Redux thunk</li>
+  <li>json-server</li>
+  <li>Axios</li>
+  <li>classnames</li>
+  <li>styled-components</li>
+  <li>classes</li>
+</ul>
