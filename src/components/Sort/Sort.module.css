@@ -1,0 +1,61 @@
+.Sort{
+    position: relative;
+}
+
+.SortLabel {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+}
+
+.SortLabel svg {
+    margin-right: 10px;
+}
+
+.SortLabel svg.rotate{
+    transform: rotate(180deg);
+}
+
+.SortLabel span{
+    color: #FE5F1E;
+    cursor: pointer;
+}
+
+.SortPopup{
+    box-sizing: border-box;
+    position: absolute;
+    width: 132px;
+    height: 110px;
+    right: 0;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+
+.SortPopup ul{
+    
+}
+.SortPopup ul li:nth-child(){
+    margin-top: 10px;
+}
+.SortPopup ul li {
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    padding: 10px 0;
+    padding-left: 14px;
+    cursor: pointer;
+}
+
+.SortPopup ul li:hover{
+    color: #FE5F1E;
+    background-color: #FFF7F3;
+}
+
+.SortPopup ul li.active{
+    color: #FE5F1E;
+    background-color: #FFF7F3;
+    font-weight: bold;
+}

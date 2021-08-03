@@ -1,0 +1,16 @@
+.Pizzas{
+    
+}
+
+.Pizzas h2 {
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.PizzasRow{
+    display: flex;
+    flex-wrap: wrap;
+}

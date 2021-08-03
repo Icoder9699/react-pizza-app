@@ -1,0 +1,113 @@
+.CartItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.363);
+    padding: 20px 0;
+}
+
+.CartItem img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.CartInfo{
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.CartItemCount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CartItem b{
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+.CartMinusBtn{
+    cursor: pointer;
+    border: 2px solid #FE5F1E;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.CartMinusBtn svg{
+    margin: 0 auto;
+    fill: #FE5F1E;
+}
+
+.CartMinusBtn:hover{
+    background-color: #FE5F1E;
+    box-shadow: 0 0 3px 1px #FE5F1E; ;
+}
+
+.CartMinusBtn:hover svg path{
+    fill: #fff;
+    stroke: #fff;
+}
+
+.CartPlusBtn{
+    cursor: pointer;
+    border: 2px solid #FE5F1E;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+
+.CartPlusBtn svg {
+    margin: 0 auto;
+}
+
+
+.CartPlusBtn:hover{
+    background-color: #FE5F1E;
+    box-shadow: 0 0 3px 1px #FE5F1E; ;
+}
+
+.CartPlusBtn:hover svg path{
+    fill: #fff;
+}
+
+.CartItemPrice b{
+    font-size: 22px;
+}
+
+.CartRemoveBtn{
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: transparent;
+    transform: rotate(45deg);
+}
+
+.CartRemoveBtn:hover{
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.65);;
+    background-color: rgba(0, 0, 0, 0.65);
+    border: rgba(0, 0, 0, 0.65);
+}
+.CartRemoveBtn:hover svg path{
+    stroke: #fff;
+    fill: #fff;
+}
+.CartRemoveBtn svg{
+    margin: 0 auto;
+    fill: #ccc;
+}

@@ -1,0 +1,21 @@
+.Button{
+
+}
+
+
+
+.cart{
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 23px;
+    width: 150px;
+    height: 50px;
+    background-color: #FE5F1E;
+    border-radius: 30px;
+    position: relative;
+}

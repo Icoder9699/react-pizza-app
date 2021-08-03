@@ -1,0 +1,38 @@
+.Categories{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Categories ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between
+}
+.Categories ul li {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 46px;
+    background: #F9F9F9;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    margin: 0 4px;
+}
+
+.Categories ul li:hover{
+    box-shadow: 0 0 3px black;
+    transition: all 300ms ease-in;
+}
+
+.Categories ul li.CategoriesActive{
+    background-color: #000;
+    color: #fff;
+}

@@ -1,0 +1,178 @@
+.CartWrapper{
+    width: 821px;
+    margin: 90px auto;
+}   
+
+.CartLogo {
+    display: flex;
+    align-items: center;
+}
+
+.CartLogo svg {
+    margin-right: 10px;
+}
+
+.CartLogo svg path{
+    stroke: #000;
+}
+
+.CartHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+}
+
+.CartClear{
+    display: flex;
+    width: 169px;
+    height: 23px;
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #B6B6B6;
+    cursor: pointer;
+}
+
+.CartClear svg{
+    margin-right: 10px;
+}
+.CartClear svg path {
+    stroke: #ccc;
+}
+
+.CartClear:hover{
+    color: #000;
+}
+
+.CartClear:hover svg path{
+    stroke: #000;
+}
+
+.CartContainer {
+    flex: 1 1 auto;
+}
+
+.CartRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CartEmpty{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CartEmpty h2{
+    margin-bottom: 10px;
+}
+
+.CartEmpty h2 i {
+    width: 30px;
+    height: 30px;
+    font-style: inherit;
+}
+
+.CartEmpty p {
+    margin-bottom: 20px;
+}
+
+
+.CartEmpty img {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.CartEmpty a{
+    background-color: black;
+    display: block;
+    width: 250px;
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.CartEmpty a:hover{
+    box-shadow: 0 0 5px black;
+}
+
+.CartBottom{
+    margin: 20px 0;
+}
+
+.CartBottomDetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.CartBottomButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CartGoHomeBtn{
+    font-size: 16px;
+    width: 211px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CartGoHomeBtn svg path {
+    stroke: #ccc;
+}
+
+.CartGoHomeBtn:hover{
+    background: #ccc;
+    color: #fff;
+}
+
+.CartGoHomeBtn:hover svg path{
+    color: #fff;
+    stroke: #fff;
+}
+
+.CartGoHomeBtn a span{ 
+    color: #ccc;
+}
+
+.CartBottomButtons a svg {
+    margin-right: 10px;
+}
+
+
+.CartBottomButtons button {
+    font-size: 16px;
+    width: 211px;
+    height: 55px;
+    background: #FE5F1E;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.CartBottomButtons button:hover{
+    background-color: transparent;
+    border: 1px solid #FE5F1E;
+    color: #FE5F1E;
+    box-shadow: 0 0 3px #FE5F1E;
+}
