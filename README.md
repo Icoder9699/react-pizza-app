@@ -1,5 +1,5 @@
 Интернет-магазин по заказу пиццы - React Pizza
-demo : https://react-pizzas-app.herokuapp.com/
+<p>demo : https://react-pizzas-app.herokuapp.com/</p>
 
 Stack:
 <ul>
