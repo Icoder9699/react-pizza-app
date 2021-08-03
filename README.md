@@ -10,4 +10,5 @@ Stack:
   <li>classnames</li>
   <li>styled-components</li>
   <li>classes</li>
+  <li>prop types</li>
 </ul>
