@@ -10,6 +10,6 @@ Stack:
   <li>Axios</li>
   <li>classnames</li>
   <li>styled-components</li>
-  <li>classes</li>
+  <li>Css modules</li>
   <li>prop types</li>
 </ul>
